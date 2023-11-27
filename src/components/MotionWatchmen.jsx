@@ -1,6 +1,5 @@
 import { styles } from "../styles";
 import { motion } from "framer-motion";
-import { startTexst } from "../constants/index";
 import { WatchmenMynd } from "../assets/index.js";
 
 const MotionWatchmen = ({ Watchmen }) => {

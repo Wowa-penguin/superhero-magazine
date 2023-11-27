@@ -1,6 +1,5 @@
 import { styles } from "../styles";
 import { motion } from "framer-motion";
-import { startTexst } from "../constants/index";
 import { UnbreakableMynd } from "../assets/index.js";
 
 const MotionUnbreakable = ({ Unbreakable }) => {

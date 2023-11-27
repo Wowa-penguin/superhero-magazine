@@ -10,14 +10,26 @@ const App = () => {
 
   const click = () => {
     setStart(!start);
+    setStart1(false);
+    setStart2(false);
+    setStart3(false);
   };
   const click1 = () => {
+    setStart(false);
     setStart1(!start1);
+    setStart2(false);
+    setStart3(false);
   };
   const click2 = () => {
+    setStart(false);
+    setStart1(false);
     setStart2(!start2);
+    setStart3(false);
   };
   const click3 = () => {
+    setStart(false);
+    setStart1(false);
+    setStart2(false);
     setStart3(!start3);
   };
 

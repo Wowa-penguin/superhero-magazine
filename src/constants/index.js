@@ -1,15 +1,26 @@
+export const aboutMoveText = {
 
-const startTexst = [
-  {
-    id: 1, 
-    subtitle: 'Hello World þetta er Heimir hér',
-    title: 'Mér langar að tala um okkar besta man hann stjána sem er að gefa mér tíma til að þakka sér fyrir að vera til og guð',
-  },
-  {
-    id: 1, 
-    subtitle: 'Hello World þetta er Heimir hér',
-    title: 'Mér langar að tala um okkar besta man hann stjána sem er að gefa mér tíma til að þakka sér fyrir að vera til og guð',
+  
+  umMyndinaC: 'Um Myndina: Chronicle',
+  cTexsti: 'Myndin Chronicle fjallar um þrjá stráka sem enda með að finna einhvers konar ofurkrafta frá óþekktum aðferðum. Við horfum á strákana í gegnum myndavélar og þar aðallega í gegnum myndavél hans Andrew Detmer sem er að taka allt upp af einhverjum ástæðum. Strákarnir Andrew, Matt, Steve byrjað að mynda vinasamband þar sem þeir skoða nýju máta sína og hjálpa hvor öðrum að nota þá og að bestu getu. Andrew endar þó með því að trúa að hann sé betri en aðrir og endar með að drepa Steve óvart þegar hann var að reyna hjálpa honum. Eftir dauða Steve þá brotnar samband Andrews og Matts niður þar sem Andrew fer að trú að hann sé einhver skonar guð. Þetta endar allt með að Andrew fer og drepur pabba sinn sem var búin að vera ofbeldis fullur gegn honum en Matt vil ekki að Andrew geri það þannig þeir berjast sem endar með dauða Andrews.',
+  cÖðruvísiTitil: 'Hvernig eru hún öðruvísi',
+  cÖðruvísi: 'Þegar við hugsum um hvernig Chronicle er öðruvísi ofurhetju mynd þá er stærsta atriðið hvernig við erum að horfa í gegnum myndavélar sem eru að taka upp allt sem er að gerast. Þetta hefur þó verið gert í öðrum myndum eins og the blair witch project en ekki oft í ofurhetju myndum. Líka ofurkraftar þeirra og hvernig þeir fá það yfirlegt er gert stórt atriði um hvernig ofurhetjan fær krafta sína en ekki í Chronicle. Atriðið þar sem þeir fá krafta sína er mjög stutt og lítið útskýrt þar sem þeir finna bara stein og eru með krafta eftir það. Annað er endirinn og hvernig Andrew verður sá vondi eða antihero eins og sumir mundu segja þar. Myndin er ekki þessi hefðbundna ofurhetjumynd eins og við munum sjá frá Marvel og við fáum góða tilfinningu fyrir því út frá hvernig myndin er í sjónarhorni frá myndavélum.',
+  
+  
+  umMyndinaU: 'Unbreakable',
+  uTexsti: 'Myndin Unbreakable er um David Dunn sem með fyrstu sýn er venjulegur öryggisvörður en þegar hann lendir í lestarslysi þar sem allir nema hann deyja fer hann að velta fyrir sér hvort hann sé með ofurkrafta. Elijah Price sem er mikið fyrir ofurhetjublöð hittir David og þeir fara skoða máta hans saman þar sem Elijah sér að David er með einhverskonar sjónarkrafta þar sem hann sér fram fyrir hættu áður en hún á sér stað. David fer líka að lyfta 200+ kílóum og fer virkilega að trúa að hann sér með ofurkrafta. Elijah hjálpar David að gera sig að ofurhetju þar sem hann fer í regnjakka og hjálpar fólki sem var búið að taka í gíslingu heima hjá sér. David endar með að hjálpa þeim og það er frétt skrifuð um hann en þegar allt virðist vera gott kemur Elijah fram og segir að hann er búina að vera filgast með David og vissi allt um hann áður fyrr og það hefði verið hann sem valdi öllum þessum slysum til að skoða hvort David var trúlega ódauðlegur.',
+  uÖðruvísi: 'Unbreakable er mjög áhugaverð mynd út frá því að við fylgjumst með ofurhetju sem er með rosalega krafta sem veit ekki af því. Í öllum ofurhetju myndum sem ég hef séð þá veit aðalpersónan að þeir séu með krafta að einhverju magni en í Unbreakable þá erum við að fylgjast með David sem er fullorðinn maður sem fæddist með ofurkrafta og veit ekki af því. David er með hann kraft að hann meiðist ekki David hefur aldrei orðið veikur eða brotið bein og er mjög sterkur en hefur ekkert spáð í því. Þetta dæmi um að ofurhetjan viti ekki að kröftum sínum er eitthvað sem er ekki oft notað.',   
+  
+  
+    umMyndinaU: 'Super',
+    uTexsti: 'Myndin Super fjallar um hann Frank Darbo sem er hefðbundin maður sem er giftur henni Sarah en samband þeir er á vondum stað þar sem Sara er fyrrverandi fíkil og hættir með Frank til að byrja með öðrum. Frank tekur þessu ekki vel og lofar að ná henni úr fíkniefnaheiminum og neyslu. Þegar Frank er á hóteli eftir að það var búið að ráðast á hann þegar hann reyndi að ná Sarah til baka þá fær hann kall frá guð sem segir honum að verða ofurhetja. Eftir þetta guðlega skilaboð býr Frank til búning og fer út að berjast við glæp á sínum forsendum. Frank klæðist rauðum búning og notar skiftilikil til að berjast á móti voldum illu. Frank hittir Libby í myndasöguverslun og hún endar með að aðstoða hann í bardaga við ofl það illa. Myndin endar með stóra árás á hús þar sem Sarah er að njóta við eiturlyf þannig Frank og Libby fara þangað vel vopnuð með sprengjur og bussur til að ná henni út. Libby endar með að deyja og Frank finnur Sara og drepur nýja kærasta hennar til að stoppa ílsku. Frank og Sarah fara saman út en byrja ekki saman þrátt fyrir allt.',
+    uÖðruvísi: 'Super er mjög áhugaverð mynd og það er þó nokkuð eftir að útskýra hana nema bara segja viðkomanda að horfa á myndina. Til að reyna þá má segja að Super gerir grín að því hvernig ofurhetjur ákveða hvað er rétt og hvað er ránt. Dæmi í myndini er þegar Frank er að fara í bíó og hjón fara fram úr í röð sem sem endar með að Frank fer í búning og réðst á fólki með skiftilikil. Fyrir Frank þá eru allir glæpir jafn stórir þar sem hann beitir skiptilykli sínum á dópsala og einhvern sem fer fram úr röð. Annað dæmi er í myndin þar sem Libby sem er að aðstoða Frank nauðgar honum sem er eitthvað sem bara gerist varla í bíómyndum.',   
+    
+    
+    umMyndinaU: 'Watchmen',
+    uTexsti: 'Watchmen myndin fjallar um allskonar ofurhetjur sem hafa enga krafta og eru nú banaðar af lögum að starfa nú til dags. Dr. Manhattan er ofurhetja sem er ekki eins og hinir þar sem hann er nærum guð sem getur gert allt sem hann vil eftir að hafa lenti í einhverskonar rafmaks slysi. Myndin fjallar um hvernig ofurhetjunar eru dregnar aftur í hetju bransan þar sem fyrrverandi hetjan Adrian planar að bjarga heiminum með því að sameina hann gegn Dr. Manhattan. Adrian sem er sagður vera gáfasti maður í heiminum nær þessu með því að spengja stórborgir og láta það líta eins og Manhattan hafi gert það sem sameinar Bandaríkin og Sovétríki til að finna lausn á frið. Myndin endar með því að Manhattan tekur við sökini og flýr frá jörðinni og allar hetjunar segja engum um sannleikan til að halda friðinum nema Rorschach sem er drepinn.',
+    uÖðruvísi: 'Watchmen er ekki þessi venjulega Marval eða DC mynd en samt ekki eins öðruvísi og hinar myndirnar. Í Watchmen þá eru engin nema Dr. Manhattan sem er með ofurkrafta og það sem stendur út við það er að  Dr. Manhattan er nærum guð sem getur gert allt. Hinnar ofurhetjunar eru líkar batman þar sem þær nota búnað og gáfur til að berjast við það illa. Endirinn er líka þó nokkuð óhefðbundinn þar sem vondi er ekki stopaður og drepur milljónir og allir nema Rorschach eru bara sammála honum að halda leyndarmálinu líka. Dr. Manhattan sem getur gert hvað sem er hvenær sem er endar með því að vera sammála og fer bara sem er smá skrítið þegar þú hugsar út í hann getur gert hvað sem er til dæmis komið fyrir frið á jörðu en hann gleymir að spá í því held ég.',   
+    
+    
   }
-]
 
-export { startTexst };

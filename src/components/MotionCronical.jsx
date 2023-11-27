@@ -1,12 +1,10 @@
-import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { ChronicleMynd } from "../assets/index.js";
-import { startTexst } from "../constants/index";
+import AboutMove from "./AboutMove.jsx";
 
 const MotionCronical = ({ Chronicle }) => {
   return (
     <motion.div
-      className="bg-red-900"
       initial={{
         x: 20,
         y: 0,
@@ -14,22 +12,20 @@ const MotionCronical = ({ Chronicle }) => {
         width: 55,
       }}
       animate={{
-        x: Chronicle
-          ? 160
-          : [0, 200, 400, 600, 800, 1000, 1200, 1000, 800, 600, 400, 200, 0],
+        x: Chronicle ? 160 : [0, 400, 800, 1200, 800, 400, 0],
 
-        y: Chronicle ? 20 : [0, 340, 0, 340, 0, 340, 0, 340, 0, 340, 0, 340, 0],
+        y: Chronicle ? 20 : [0, 340, 0, 340, 0, 340, 0],
         height: Chronicle ? 390 : 70,
         width: Chronicle ? 1000 : 55,
       }}
       transition={{
         x: {
-          duration: Chronicle ? 1 : 32,
+          duration: Chronicle ? 1 : 38,
           repeat: Chronicle ? "" : Infinity,
           repeatType: "loop",
         },
         y: {
-          duration: Chronicle ? 1 : 37,
+          duration: Chronicle ? 1 : 38,
           repeat: Chronicle ? "" : Infinity,
           repeatType: "loop",
         },
@@ -38,7 +34,7 @@ const MotionCronical = ({ Chronicle }) => {
       }}
     >
       {Chronicle ? (
-        <motion.p>Hello</motion.p>
+        <AboutMove />
       ) : (
         <motion.img src={ChronicleMynd} alt="Unbreakable" />
       )}

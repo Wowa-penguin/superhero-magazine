@@ -1,11 +1,10 @@
-import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { UnbreakableMynd } from "../assets/index.js";
+import AboutMoveUn from "./AboutMoveUn.jsx";
 
 const MotionUnbreakable = ({ Unbreakable }) => {
   return (
     <motion.div
-      className="bg-red-900"
       initial={{
         x: 1200,
         y: 270,
@@ -34,7 +33,7 @@ const MotionUnbreakable = ({ Unbreakable }) => {
       }}
     >
       {Unbreakable ? (
-        <motion.p>Hello</motion.p>
+        <AboutMoveUn />
       ) : (
         <motion.img src={UnbreakableMynd} alt="Unbreakable" />
       )}

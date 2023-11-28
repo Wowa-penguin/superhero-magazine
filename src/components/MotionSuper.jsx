@@ -1,11 +1,11 @@
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { SuperMynd } from "../assets/index.js";
+import AboutMoveSup from "./AboutMoveSup.jsx";
 
 const MotionSuper = ({ Super }) => {
   return (
     <motion.div
-      className="bg-red-900"
       initial={{
         x: 0,
         y: 200,
@@ -41,11 +41,7 @@ const MotionSuper = ({ Super }) => {
         width: { duration: Super ? 2 : 1 },
       }}
     >
-      {Super ? (
-        <motion.p>Hello</motion.p>
-      ) : (
-        <motion.img src={SuperMynd} alt="Super" />
-      )}
+      {Super ? <AboutMoveSup /> : <motion.img src={SuperMynd} alt="Super" />}
     </motion.div>
   );
 };

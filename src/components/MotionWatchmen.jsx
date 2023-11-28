@@ -1,11 +1,11 @@
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { WatchmenMynd } from "../assets/index.js";
+import AboutMoveWas from "./AboutMoveWas.jsx";
 
 const MotionWatchmen = ({ Watchmen }) => {
   return (
     <motion.div
-      className="bg-red-900"
       initial={{
         x: 1200,
         y: -225,
@@ -34,7 +34,7 @@ const MotionWatchmen = ({ Watchmen }) => {
       }}
     >
       {Watchmen ? (
-        <motion.p>Hello</motion.p>
+        <AboutMoveWas />
       ) : (
         <motion.img src={WatchmenMynd} alt="Unbreakable" />
       )}

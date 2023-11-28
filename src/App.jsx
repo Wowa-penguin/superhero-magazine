@@ -1,12 +1,16 @@
 import { useState } from "react";
-import { Navbar, Start } from "./components/index";
-import { styles } from "./styles";
+import { Navbar, Start, Intro } from "./components/index";
 
 const App = () => {
+  const [byrja, setByrja] = useState(true);
   const [start, setStart] = useState(false);
   const [start1, setStart1] = useState(false);
   const [start2, setStart2] = useState(false);
   const [start3, setStart3] = useState(false);
+
+  const byrjaMove = () => {
+    setByrja(false);
+  };
 
   const click = () => {
     setStart(!start);
@@ -45,14 +49,16 @@ const App = () => {
         <div className="bg-nav-pattern bg-cover bg-no-repeat bg-center">
           <section className={`relative h-[455px] mx-auto`}>
             <div className="absolute inset-0 top-7">
-              <div className={`${styles.normalText}`}>
+              {byrja ? (
+                <Intro Byrja={byrjaMove} />
+              ) : (
                 <Start
                   Chronicle={start}
                   Unbreakable={start1}
                   Super={start2}
                   Watchmen={start3}
                 />
-              </div>
+              )}
             </div>
           </section>
         </div>

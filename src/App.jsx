@@ -39,30 +39,25 @@ const App = () => {
 
   return (
     <>
-      <div className="relative z-0">
+      <section className='h-screen bg-nav-pattern' >
         <Navbar
           onClick1={click}
           onClick2={click1}
           onClick3={click2}
           onClick4={click3}
         />
-        <div className="bg-nav-pattern bg-cover bg-no-repeat bg-center">
-          <section className={`relative h-[455px] mx-auto`}>
-            <div className="absolute inset-0 top-7">
-              {byrja ? (
-                <Intro Byrja={byrjaMove} />
-              ) : (
-                <Start
-                  Chronicle={start}
-                  Unbreakable={start1}
-                  Super={start2}
-                  Watchmen={start3}
-                />
-              )}
-            </div>
-          </section>
-        </div>
-      </div>
+          
+        {byrja ? (
+          <Intro Byrja={byrjaMove} />
+        ) : (
+          <Start
+            Chronicle={start}
+            Unbreakable={start1}
+            Super={start2}
+            Watchmen={start3}
+          />
+        )}
+      </section>
     </>
   );
 };

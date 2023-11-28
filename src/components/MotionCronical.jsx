@@ -6,26 +6,25 @@ const MotionCronical = ({ Chronicle }) => {
   return (
     <motion.div
       initial={{
-        x: 20,
-        y: 0,
-        height: 70,
-        width: 55,
+        x: '0%',
+        y: '5%',
+        height: '10vh',
+        width: '5vw',
       }}
       animate={{
-        x: Chronicle ? 160 : [0, 400, 800, 1200, 800, 400, 0],
-
-        y: Chronicle ? 20 : [0, 340, 0, 340, 0, 340, 0],
-        height: Chronicle ? 390 : 70,
-        width: Chronicle ? 1000 : 55,
+        x: Chronicle ? "10vw" : ['5vw', '19vw', '38vw', '57vw', '76vw', '90vw', '76vw', '57vw', '38vw', '19vw', '5vw'],
+        y: Chronicle ? "10vh" : ['5vh', '70vh', '5vh', '70vh', '5vh', '70vh', '5vh', '70vh', '5vh', '70vh', '5vh'],
+        height: Chronicle ? "65vh" : '10vh',
+        width: Chronicle ? "80vw" : '5vw',
       }}
       transition={{
         x: {
-          duration: Chronicle ? 1 : 38,
+          duration: Chronicle ? 1 : 33,
           repeat: Chronicle ? "" : Infinity,
           repeatType: "loop",
         },
         y: {
-          duration: Chronicle ? 1 : 38,
+          duration: Chronicle ? 1 : 33,
           repeat: Chronicle ? "" : Infinity,
           repeatType: "loop",
         },

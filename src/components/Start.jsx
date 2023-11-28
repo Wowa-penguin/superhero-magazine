@@ -56,10 +56,12 @@ const Start = ({ Chronicle, Unbreakable, Super, Watchmen }) => {
   ) {
     return (
       <>
-        <MotionCronical Chronicle={Chronicle} />
-        <MotionUnbreakable Unbreakable={Unbreakable} />
-        <MotionSuper Super={Super} />
-        <MotionWatchmen Watchmen={Watchmen} />
+        <div className="h-[80%] w-full">
+          <MotionCronical Chronicle={Chronicle} />
+          <MotionUnbreakable Unbreakable={Unbreakable} />
+          <MotionSuper Super={Super} />
+          <MotionWatchmen Watchmen={Watchmen} />
+        </div>
       </>
     );
   }

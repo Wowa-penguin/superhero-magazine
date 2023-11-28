@@ -1,4 +1,3 @@
-import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { SuperMynd } from "../assets/index.js";
 import AboutMoveSup from "./AboutMoveSup.jsx";
@@ -6,25 +5,20 @@ import AboutMoveSup from "./AboutMoveSup.jsx";
 const MotionSuper = ({ Super }) => {
   return (
     <motion.div
+      className="absolute"
       initial={{
-        x: 0,
-        y: 200,
-        height: 70,
-        width: 55,
+        x: '0vw',
+        y: '-55vh',
+        height: '10vh',
+        width: '5vw',
       }}
       animate={{
         x: Super
-          ? 160
-          : [0, 200, 400, 600, 800, 1000, 1200, 1000, 800, 600, 400, 200, 0],
-
+          ? "10vw" : ['5vw', '19vw', '38vw', '57vw', '76vw', '90vw', '76vw', '57vw', '38vw', '19vw', '5vw'],
         y: Super
-          ? 20
-          : [
-              200, -160, 200, -160, 200, -160, 200, -160, 200, -160, 200, -160,
-              200,
-            ],
-        height: Super ? 390 : 70,
-        width: Super ? 1000 : 55,
+          ? "10vh" : ['50vh', '-13vh', '50vh', '-13vh', '50vh', '-13vh', '50vh', '-13vh', '50vh', '-13vh', '50vh'],
+        height: Super ? "65vh" : '10vh',
+        width: Super ? "80vw" : '5vw',
       }}
       transition={{
         x: {

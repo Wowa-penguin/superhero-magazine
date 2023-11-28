@@ -1,4 +1,3 @@
-import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { WatchmenMynd } from "../assets/index.js";
 import AboutMoveWas from "./AboutMoveWas.jsx";
@@ -7,16 +6,18 @@ const MotionWatchmen = ({ Watchmen }) => {
   return (
     <motion.div
       initial={{
-        x: 1200,
-        y: -225,
-        height: 70,
-        width: 55,
+        x: '0vw',
+        y: '48vh',
+        height: '10vh',
+        width: '5vw',
       }}
       animate={{
-        x: Watchmen ? 160 : [1200, 900, 600, 300, 0, 400, 800, 1100, 1200],
-        y: Watchmen ? 20 : [-225, 125, -225, 125, -225, 125, -225, 125, -225],
-        height: Watchmen ? 390 : 70,
-        width: Watchmen ? 1000 : 55,
+        x: Watchmen ? "10vw" : ['90vw', '76vw', '57vw', '38vw', '19vw', '5vw', '19vw', '38vw', '57vw', '76vw', '90vw'],
+        y: Watchmen
+          ? "10vh"
+          : ['-15vh', '48vh', '-15vh', '48vh', '-15vh', '48vh', '-15vh', '48vh', '-15vh', '48vh', '-15vh'],
+        height: Watchmen ? "65vh" : '10vh',
+        width: Watchmen ? "80vw" : '5vw',
       }}
       transition={{
         x: {

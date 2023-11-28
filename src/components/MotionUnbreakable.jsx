@@ -6,16 +6,18 @@ const MotionUnbreakable = ({ Unbreakable }) => {
   return (
     <motion.div
       initial={{
-        x: 1200,
-        y: 270,
-        height: 70,
-        width: 55,
+        x: '50vw',
+        y: '-4vh',
+        height: '10vh',
+        width: '5vw',
       }}
       animate={{
-        x: Unbreakable ? 160 : [1200, 900, 600, 300, 0, 400, 800, 1100, 1200],
-        y: Unbreakable ? 20 : [270, -80, 270, -80, 270, -80, 270, -80, 270],
-        height: Unbreakable ? 390 : 70,
-        width: Unbreakable ? 1000 : 55,
+        x: Unbreakable
+          ? "10vw"
+          : ['90vw', '76vw', '57vw', '38vw', '19vw', '5vw', '19vw', '38vw', '57vw', '76vw', '90vw'],
+        y: Unbreakable ? "10vh" : ['56vh', '-4vh', '56vh', '-4vh', '56vh', '-4vh', '56vh', '-4vh', '56vh', '-4vh', '56vh'],
+        height: Unbreakable ? "65vh" : '10vh',
+        width: Unbreakable ? "80vw" : '5vw',
       }}
       transition={{
         x: {

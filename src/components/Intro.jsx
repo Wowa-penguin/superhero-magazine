@@ -31,22 +31,26 @@ const Intro = ({ Byrja }) => {
               {hover ? (
                 <>
                   <div className="flex flex-col gap-6">
-                    <motion.p initial={{ opacity: 1, width: 1150 }}>
+                    <motion.p initial={{ opacity: 1, width: 1150, y: "10vh" }}>
                       {aboutMoveText.hvaðErPóstmódernism}
                     </motion.p>
                     <motion.p
-                      initial={{ width: 70 }}
+                      initial={{ width: 70, y: "13vh" }}
                       whileHover={{ opacity: 0.5 }}
                     >
                       Til baka
                     </motion.p>
-
                   </div>
                 </>
               ) : (
-                <motion.h1 initial={{ scale: 2 }} whileHover={{ opacity: 0.5 }}>
-                  Hvað er póstmódernismi
-                </motion.h1>
+                <div className="flex ">
+                  <motion.h1
+                    initial={{ scale: 2 }}
+                    whileHover={{ opacity: 0.5 }}
+                  >
+                    Hvað er póstmódernismi
+                  </motion.h1>
+                </div>
               )}
             </motion.div>
           )}
@@ -65,16 +69,15 @@ const Intro = ({ Byrja }) => {
               {hover1 ? (
                 <>
                   <div className="flex flex-col gap-6">
-                    <motion.p initial={{ opacity: 1, width: 1150 }}>
+                    <motion.p initial={{ opacity: 1, width: 1150, y: "10vh" }}>
                       {aboutMoveText.póstmódernismiKvikmyndum}
                     </motion.p>
                     <motion.p
-                      initial={{ width: 70 }}
+                      initial={{ width: 70, y: "13vh" }}
                       whileHover={{ opacity: 0.5 }}
                     >
                       Til baka
                     </motion.p>
-
                   </div>
                 </>
               ) : (
@@ -101,11 +104,11 @@ const Intro = ({ Byrja }) => {
               {hover2 ? (
                 <>
                   <div className="flex flex-col gap-6">
-                    <motion.p initial={{ opacity: 1, width: 1150 }}>
+                    <motion.p initial={{ opacity: 1, width: 1150, y: "-20vh" }}>
                       {aboutMoveText.útskýraOfurhetjumyndir}
                     </motion.p>
                     <motion.p
-                      initial={{ width: 70 }}
+                      initial={{ width: 70, y: "-13vh" }}
                       whileHover={{ opacity: 0.5 }}
                     >
                       Til baka
@@ -134,11 +137,11 @@ const Intro = ({ Byrja }) => {
               {hover3 ? (
                 <>
                   <div className="flex flex-col gap-6 ">
-                    <motion.p initial={{ opacity: 1, width: 1150 }}>
+                    <motion.p initial={{ opacity: 1, width: 1150, y: "-20vh" }}>
                       {aboutMoveText.ÚtskýraPóstmódernískarOfurhetjumyndir}
                     </motion.p>
                     <motion.p
-                      initial={{ width: 70 }}
+                      initial={{ width: 70, y: "-13vh" }}
                       whileHover={{ opacity: 0.5 }}
                     >
                       Til baka
@@ -167,8 +170,6 @@ const Intro = ({ Byrja }) => {
         >
           Byrjar
         </motion.button>
-      
-      
       </div>
     </>
   );

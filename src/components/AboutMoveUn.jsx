@@ -1,22 +1,58 @@
 import { aboutMoveText } from "../constants/index";
 import { UnbreakableMynd } from "../assets/index.js";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 const AboutMoveUn = () => {
+  const [opacity, setOpacity] = useState(false);
+
+  setInterval(() => {
+    setOpacity(true);
+  }, 2300);
   return (
-    <div className="border-solid border-2 h-full rounded-lg p-2">
+    <div className="border-solid border-2 h-full rounded-lg p-2 bg-black">
       <div className="flex justify-between">
         <div className="flex flex-row gap-4">
           <div className="w-[44%] h-full">
-            <h2 className="text-[18px]">{aboutMoveText.umMyndinaU}</h2>
-            <p className="text-[14px]">{aboutMoveText.uTexsti}</p>
+            <motion.h2
+              className="text-[18px]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: opacity ? 1 : 0 }}
+            >
+              {aboutMoveText.umMyndinaU}
+            </motion.h2>
+            <motion.p
+              className="text-[14px]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: opacity ? 1 : 0 }}
+            >
+              {aboutMoveText.uTexsti}
+            </motion.p>
           </div>
 
           <div className="w-[36%] h-full text-[14px]">
-            <h2 className="text-[18px]">{aboutMoveText.uÖðruvísiTitil}</h2>
-            <p className="text-[14px]">{aboutMoveText.uÖðruvísi}</p>
+            <motion.h2
+              className="text-[18px]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: opacity ? 1 : 0 }}
+            >
+              {aboutMoveText.uÖðruvísiTitil}
+            </motion.h2>
+            <motion.p
+              className="text-[14px]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: opacity ? 1 : 0 }}
+            >
+              {aboutMoveText.uÖðruvísi}
+            </motion.p>
           </div>
           <div className="w-[20%] h-[100px]">
-            <img src={UnbreakableMynd} alt="error" />
+            <motion.img
+              src={UnbreakableMynd}
+              alt="error"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: opacity ? 1 : 0 }}
+            />
           </div>
         </div>
       </div>

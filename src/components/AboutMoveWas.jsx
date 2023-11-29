@@ -20,7 +20,7 @@ const AboutMoveWas = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: opacity ? 1 : 0 }}
             >
-              {aboutMoveText.wÖðruvísiTitil}
+              {aboutMoveText.umMyndinaW}
             </motion.h2>
             <motion.p
               className="text-[14px]"
